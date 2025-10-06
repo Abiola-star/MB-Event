@@ -2,7 +2,7 @@ import {React, useState} from 'react'
 import AuthLayout from '../Layouts/AuthLayout'
 import image from "../assets/Frame-signup.png"
 import { Link, useNavigate } from 'react-router-dom';
-import Logo from "../assets/NB-Events-logo.png"
+import Logo from "../assets/NB-Events-Logo.png"
 import {toast} from "react-toastify"
 
 export default function ForgotPassword() {
