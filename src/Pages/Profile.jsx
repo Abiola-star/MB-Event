@@ -3,7 +3,7 @@ import profileImg from "../assets/default-profile-icon.webp";
 import { IoPencil } from "react-icons/io5";
 import AppLayout from "../Layouts/AppLayout";
 import Button from "../Components/Button";
-import { AuthContext } from "../Context/AuthContext";
+import { AuthContext } from "../context/AuthContext";
 
 export default function Profile() {
   const { user } = useContext(AuthContext);
