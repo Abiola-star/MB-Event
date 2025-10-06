@@ -1,0 +1,14 @@
+Loading states
+lazy loading for images
+
+
+homepage
+//user signed in
+//footer form subscribe to newletter
+
+//event details page
+selet titect modal
+search functionalities
+events and events pagination
+
+//auth pages
