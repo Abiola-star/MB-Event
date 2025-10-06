@@ -1,12 +1,11 @@
 import React from 'react'
 import AuthLayout from "../Layouts/AuthLayout"
-import image from "../assets/frame-signin.png"
+import image from "../assets/Frame-signin.png"
 import { useState, useContext } from 'react';
 import Logo from "../assets/NB-Events-Logo.png"
 import { Link } from 'react-router-dom';
 import { FaRegEye } from "react-icons/fa";
 import { FaRegEyeSlash } from "react-icons/fa";
-import { set } from 'react-hook-form';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { toast } from "react-toastify"
