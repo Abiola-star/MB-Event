@@ -23,7 +23,7 @@ export const AuthProvider = ({ children }) => {
   
   const register = async (formData) => {
     try {
-      let url= "http://localhost:5000/api/user"
+      let url= "https://mb-event-backend.onrender.com/api/user"
       const response = await fetch(`${url}/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -63,7 +63,7 @@ export const AuthProvider = ({ children }) => {
 // };
 
 const login = async (formData) => {
-  let url ="http://localhost:5000/api/user"
+  let url ="https://mb-event-backend.onrender.com/api/user"
   const response = await fetch(`${url}/signin`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

@@ -91,7 +91,7 @@ export const EventProvider = ({ children }) => {
       setLoadingAll(true);
       setError(null);
 
-      let url =`http://localhost:5000/api/user/events/all`;
+      let url =`https://mb-event-backend.onrender.com/api/user/events/all`;
 
       const params = new URLSearchParams();
       if (searchQuery) params.append("query", searchQuery);
@@ -141,7 +141,7 @@ export const EventProvider = ({ children }) => {
     setLoadingUserEvents(true);
     setError(null);
 
-    let url ="http://localhost:5000/api/user/events"
+    let url ="https://mb-event-backend.onrender.com/api/user/events"
 
     const res = await fetch(`${url}/${type}/${userId}`, {
       headers: { 

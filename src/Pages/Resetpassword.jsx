@@ -41,7 +41,7 @@ export default function ResetPassword() {
       setIsLoading(true)
       try {
         const endpoint = `${import.meta.env.VITE_BASE_URL}/reset-password/${token}`;
-        const response = await fetch(`http://localhost:5000/api/user/reset-password/${token}`, {
+        const response = await fetch(`https://mb-event-backend.onrender.com/api/user/reset-password/${token}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(formData),
