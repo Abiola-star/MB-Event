@@ -110,7 +110,7 @@ export default function CreateEventForm() {
           if (key !== "tags") data.append(key, value);
         });
         try {
-          let url = "http://localhost:5000/api/user/events" || import.meta.env.VITE_EVENT_URL
+          let url = "https://mb-event-wheat.vercel.app/api/user/events" || import.meta.env.VITE_EVENT_URL
           const response = await fetch(`${url}/createEvent`, {
             method: "POST",
             headers: {
