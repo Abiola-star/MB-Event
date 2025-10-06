@@ -5,7 +5,7 @@ import { links } from  "../data";
 import Button from '../Components/Button';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
 import { motion } from "framer-motion"
-import { AuthContext } from "../Context/AuthContext"
+import { AuthContext } from "../context/AuthContext"
 import { LuCalendarRange, LuUserRoundPen } from "react-icons/lu";
 import { FiSettings } from "react-icons/fi";
 import { MdOutlineHelpOutline } from "react-icons/md";
